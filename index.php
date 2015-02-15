@@ -1,3 +1,3 @@
-<?php
+<?
 
-require("/core/core.php");
+require("./core/core.php");
