@@ -8,6 +8,8 @@ $smarty->setCacheDir('./templates/default/cache/cache_tpl');
 $smarty->debugging 	   = false;
 $smarty->compile_check = true;
 
+$smarty->assign('base_url', 'http://shoppy.localhost/');
+
 $smarty->display('index.tpl');
 
 ?>
