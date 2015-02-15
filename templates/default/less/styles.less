@@ -1,6 +1,10 @@
 @import "reset.less";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext);
 
+@color-red: #d90b0b;
+@color-base: #333333;
+@color-border: #ececec;
+
 * {
 	outline: none;
 	box-sizing: border-box;
@@ -8,7 +12,7 @@
 
 a {
 	text-decoration: none;
-	color: #F00;
+	color: @color-base;
 
 	&:hover {
 		text-decoration: underline;
@@ -19,7 +23,13 @@ body {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	background: url("/img/bg.png") repeat-x top center #f4f5f6;
-	color: #333333;
+	color: @color-base;
+}
+
+h2 {
+	display: block;
+	font-size: 17px;
+	font-weight: 600;
 }
 
 .page {
@@ -36,14 +46,109 @@ body {
 
 .header {
 	display: block;
-	height: 150px;
+	width: 100%;
+	overflow: auto;
+	height: auto;
 
 	&__logo {
 		display: block;
 		float: left;
 		font-size: 30px;
+		line-height: normal;
 		font-weight: 600;
-		margin: 20px 0px 0px 20px;
+		margin: 20px 0px 5px 20px;
+
+		a {
+			color: @color-base;
+
+			&:hover {
+				text-decoration: none;
+			}
+
+			span {
+				display: block;
+				clear: both;
+				font-size: 14px;
+			}
+		}
+	}
+
+	&__nav {
+		display: block;
+		float: left;
+		clear: both;
+		width: 100%;
+		margin-bottom: 15px;
+		padding: 10px;
+		margin-top: 20px;
+
+		ul {
+			display: block;
+			border-top: 1px solid @color-border;
+			border-bottom: 1px solid @color-border;
+			padding: 0px 10px;
+		}
+
+		&__item {
+			display: inline-block;
+			line-height: normal;
+			border-right: 1px solid @color-border;
+
+			&:first-child {
+				a {
+					padding-left: 0;
+				}
+			}
+
+			&:last-child {
+				border: 0;
+			}
+
+			a {
+				display: block;
+				padding: 10px 10px;
+			}
+		}
+	}
+}
+
+.content {
+	display: block;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 500px;
+	overflow: auto;
+
+	&__sidebar {
+		display: block;
+		float: left;
+		width: 200px;
+		min-height: 500px;
+		margin-left: 15px;
+		border-right: 1px solid @color-border;
+
+		.categories {
+			display: block;
+			margin-top: 10px;
+			margin-right: 10px;
+
+			&__item {
+				display: block;
+				font-size: 13px;
+				border-bottom: 1px solid @color-border;
+
+				a {
+					display: block;
+					padding: 7px 10px;
+
+					&:hover {
+						text-decoration: none;
+						background: #F0F0F0;
+					}
+				}
+
+			}
+		}
 	}
 }
 
@@ -58,4 +163,8 @@ body {
 			text-align: center;
 		}
 	}
+}
+
+.pl5 {
+	padding-left: 5px;
 }

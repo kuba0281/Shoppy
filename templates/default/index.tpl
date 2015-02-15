@@ -19,11 +19,59 @@
 		<h1 class="header__logo">
 			<a href="/">
 				Shoppy.cz
+				<span>Lorem ipsum dolor sit amet</span>
 			</a>
-		</h2>
+		</h1>
+		<div class="header__nav">
+			<ul>
+				<li class="header__nav__item">
+					<a href="#">Úvod</a>
+				</li>
+				<li class="header__nav__item">
+					<a href="#">Jak nakupovat</a>
+				</li>
+				<li class="header__nav__item">
+					<a href="#">Doprava a platba</a>
+				</li>
+				<li class="header__nav__item">
+					<a href="#">Obchodní podmínky</a>
+				</li>
+				<li class="header__nav__item">
+					<a href="#">Kontakt</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 	<div class="content">
-
+		<div class="content__sidebar">
+			<h2 class="pl5">Kategorie</h2>
+			<ul class="categories">
+				<li class="categories__item">
+					<a href="#">Lorem ipsum</a>
+				</li>
+				<li class="categories__item">
+					<a href="#">Lorem ipsum</a>
+				</li>
+				<li class="categories__item">
+					<a href="#">Lorem ipsum</a>
+				</li>
+				<li class="categories__item">
+					<a href="#">Lorem ipsum</a>
+				</li>
+				<li class="categories__item">
+					<a href="#">Lorem ipsum</a>
+				</li>
+				<li class="categories__item">
+					<a href="#">Lorem ipsum</a>
+				</li>
+				<li class="categories__item">
+					<a href="#">Lorem ipsum</a>
+				</li>
+				<li class="categories__item">
+					<a href="#">Lorem ipsum</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 	<div class="footer">
 		<p class="copy">&copy; 2015 | <a href="/">Shoppy.cz</a></p>
