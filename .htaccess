@@ -1,3 +1,6 @@
-# rewrite
+Options +FollowSymLinks
+
+# Rewrite
 RewriteEngine on
 RewriteBase /
+RewriteRule ^index.php$ . [L,QSA,R=301]

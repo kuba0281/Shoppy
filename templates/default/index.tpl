@@ -9,7 +9,7 @@
 <meta name="keywords" content="" />
 <meta name="author" content="M4RtY" />
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-<link rel="stylesheet" type="text/css" href="{$base_url}templates/default/css/styles.css">
+<link rel="stylesheet" type="text/css" href="{$baseURL}templates/default/css/styles.css">
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <script src="//localhost:35729/livereload.js"></script>
 </head>
