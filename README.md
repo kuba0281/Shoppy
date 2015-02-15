@@ -1,1 +1,3 @@
 # Shoppy
+
+E-shopový systém
