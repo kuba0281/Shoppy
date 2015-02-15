@@ -8,7 +8,6 @@ $smarty->setCacheDir('./templates/default/cache/cache_tpl');
 $smarty->debugging 	   = false;
 $smarty->compile_check = true;
 
-$smarty->assign('hello_world' , 'Hello World!');
 $smarty->display('index.tpl');
 
 ?>

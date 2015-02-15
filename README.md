@@ -1,3 +1,3 @@
 # Shoppy
 
-E-shopový systém
++ Šablonovací systém SMARTY

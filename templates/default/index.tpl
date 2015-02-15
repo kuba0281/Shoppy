@@ -14,6 +14,20 @@
 <script src="//localhost:35729/livereload.js"></script>
 </head>
 <body>
-{$hello_world}
+<div class="page">
+	<div class="header">
+		<h1 class="header__logo">
+			<a href="/">
+				Shoppy.cz
+			</a>
+		</h2>
+	</div>
+	<div class="content">
+
+	</div>
+	<div class="footer">
+		<p class="copy">&copy; 2015 | <a href="/">Shoppy.cz</a></p>
+	</div>
+</div>
 </body>
 </html>
