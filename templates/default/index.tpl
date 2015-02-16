@@ -19,7 +19,7 @@
 		<h1 class="header__logo">
 			<a href="/">
 				Shoppy.cz
-				<span>Lorem ipsum dolor sit amet</span>
+				<span>Lorem ipsum dolor sit amet</span>{$test}
 			</a>
 		</h1>
 		<div class="header__nav">
